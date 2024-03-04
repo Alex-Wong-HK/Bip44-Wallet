@@ -1,0 +1,40 @@
+{
+  "name": "@alexwg2015/Bip44-Wallet",
+  "version": "1.0.0",
+  "description": "Create and import BIP44 Wallet.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Wong-HK/Bip44-Wallet.git"
+  },
+  "keywords": [
+    "Tron",
+    "Web3",
+    "BlockChain",
+    "Listener",
+    "BIP44"
+  ],
+  "author": "Alex-Wong-HK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-Wong-HK/Bip44-Wallet.git/issues"
+  },
+  "dependencies": {
+    "tronweb": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.23",
+    "bip39": "^3.1.0",
+    "ethers": "5.7.2",
+    "typescript": "^5.3.3",
+    "@tsconfig/recommended": "^1.0.1"
+  },
+  "homepage": "https://github.com/Alex-Wong-HK/Bip44-Wallet.git#readme"
+}
